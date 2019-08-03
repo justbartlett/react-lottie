@@ -3,8 +3,8 @@ import Lottie from 'react-lottie';
 import animationData from '../lotties/8160-sent-heart.json';
 
 class Animation extends Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             isStopped: false,
             isPaused: false
